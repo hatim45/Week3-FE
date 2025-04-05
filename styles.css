@@ -1,0 +1,74 @@
+/* Element Selectors */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+p {
+    font-size: 16px;
+    color: #34495e;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: square;
+    margin: 20px;
+    padding: 10px;
+    color: #16a085;
+}
+
+/* Class Selectors */
+a {
+    text-decoration: none;
+    color: #2980b9;
+    font-size: 18px;
+    margin: 5px;
+}
+
+a:hover {
+    color: #8e44ad;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 3px solid #1abc9c;
+    border-radius: 10px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* ID Selectors */
+#main-header {
+    background-color: #0077cc;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#nav-links {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Additional Styling */
+div {
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
